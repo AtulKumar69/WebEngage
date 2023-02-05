@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Add your CSS styles here */
+      .form-container {
+        width: 28%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+        line-height:-12px;
+        align-items: center;
+        /* justify-content: center; */
+        background-image: url('./sunset-1373171__480.jpg');
+      }
+      .error-message {
+        color: red;
+        margin: 10px;
+      }
+      
+      h1{
+        /* margin-top: 100px; */
+        font-size:50px
+      }
+      p{
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container" id="second-page">
+      <h1>Thank You!</h1>
+      <p>Email: <span id="email"></span></p>
+      <p>Country Code: <span id="countryCode"></span></p>
+      <p>Mobile: <span id="mobile"></span></p>
+    </div>
+  </body>
+  <script src="./thankyou.js"> </script>
+</html>
